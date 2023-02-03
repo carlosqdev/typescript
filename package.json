@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:types": "tsc basics/types.ts --outdir dist/ && node dist/types.js"
+    "start:types": "tsc basics/types.ts --outdir dist/ && node dist/types.js",
+    "start:enums": "tsc basics/enums.ts --outdir dist/ && node dist/enums.js"
   },
   "keywords": [],
   "author": "",
