@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsc index.ts && node index.js"
+    "start:types": "tsc basics/types.ts --outdir dist/ && node dist/types.js"
   },
   "keywords": [],
   "author": "",
