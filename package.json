@@ -6,7 +6,8 @@
   "scripts": {
     "start:types": "tsc basics/types.ts --outdir dist/ && node dist/types.js",
     "start:enums": "tsc basics/enums.ts --outdir dist/ && node dist/enums.js",
-    "start:interfaces": "tsc basics/interfaces.ts --outdir dist/ && node dist/interfaces.js"
+    "start:interfaces": "tsc basics/interfaces.ts --outdir dist/ && node dist/interfaces.js",
+    "start:customType": "tsc basics/customType.ts --outdir dist/ && node dist/customType.js"
   },
   "keywords": [],
   "author": "",
